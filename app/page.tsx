@@ -109,27 +109,7 @@ export default function Home() {
     activeIndex !== undefined ? generations[activeIndex].image : undefined;
 
   return (
-    <div className="flex h-full flex-col">
-      <div className="bg-cyan-600 p-2 text-center text-white">
-        <p className="text-balance">
-          Check out{" "}
-          <a
-            href="https://loras.dev"
-            className="font-semibold underline"
-            target="_blank"
-          >
-            Loras.dev
-          </a>{" "}
-          to generate stylized AI Images
-        </p>
-      </div>
-      <div className="relative mt-3 flex h-full flex-col px-5">
-        <header className="flex justify-center pt-20 md:justify-end md:pt-3">
-          <div className="absolute left-1/2 top-6 -translate-x-1/2">
-            <a href="https://togetherai.link" target="_blank">
-              <Logo />
-            </a>
-          </div>
+ 
           <div>
             <label className="text-xs text-gray-200">
               [Optional] Add your{" "}
