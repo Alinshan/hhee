@@ -11,7 +11,7 @@ const anonymousPro = Anonymous_Pro({
   variable: "--font-anonymous-pro",
 });
 
-let title = "BlinkShot – Real-Time AI Image Generator";
+let title = "Waki – Real-Time AI Image Generator";
 let description = "Generate images with AI in a milliseconds";
 let url = "https://github.com/Alinshan/itswaki";
 let ogimage = "";
@@ -50,7 +50,7 @@ export default function RootLayout({
     <html lang="en" className={`h-full ${anonymousPro.variable} font-mono`}>
       <head>
         <meta name="color-scheme" content="dark" />
-        <PlausibleProvider domain="blinkshot.io" />
+        <PlausibleProvider domain="waki.io" />
       </head>
       <body
         className="dark h-full min-h-full bg-[length:6px] font-mono text-gray-100 antialiased"
