@@ -14,7 +14,7 @@ const anonymousPro = Anonymous_Pro({
 let title = "BlinkShot – Real-Time AI Image Generator";
 let description = "Generate images with AI in a milliseconds";
 let url = "https://github.com/Alinshan/itswaki";
-let ogimage = "https://www.blinkshot.io/og-image.png";
+let ogimage = "";
 let sitename = "waki.io";
 
 export const metadata: Metadata = {
