@@ -1,7 +1,4 @@
-<a href="https://www.blinkshot.io">
-  <img alt="Blinkshot" src="./public/og-image.png">
-  <h1 align="center">BlinkShot</h1>
-</a>
+
 
 <p align="center">
   An open source real-time AI image generator. Powered by Flux through Together.ai.
